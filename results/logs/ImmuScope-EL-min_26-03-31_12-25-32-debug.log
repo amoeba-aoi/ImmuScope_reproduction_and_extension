@@ -1,0 +1,99 @@
+[I 260331 12:25 utils:64] Model Name: ImmuScope-EL-min
+[I 260331 12:25 main_antigen_presentation_5cv:78] ------------- Start training model_id: 0 - cv: 0 ------------
+[D 260331 12:25 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0092 AUPR: 0.1325 PPV: 0.1487
+[D 260331 12:25 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0073 AUPR: 0.1394 PPV: 0.1546
+[I 260331 12:25 trainer_el:451] Epoch-pretrain: 0 - Loss[SA_I 0.3134 SA_B 0.3361 MA 0.5863 Tri 0.0614] -VAL 0.6286 - Valid:[AUC0_1:0.0094 AUPR:0.1374 PPV:0.1413] -- Test: AUPR: 0.1240 -Group [AUC0_1: 0.0082, AUPR: 0.1443, PPV: 0.1629]
+[I 260331 12:25 trainer_el:137] Best Pretrain Epoch: 0
+
+[I 260331 12:25 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV0-pretrain.pt ====
+[D 260331 12:25 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0092 AUPR: 0.1325 PPV: 0.1487
+[D 260331 12:25 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0073 AUPR: 0.1394 PPV: 0.1546
+[I 260331 12:25 trainer_el:461] -- Loss:0.628550 -Valid:[AUC0_1: 0.0094 AUPR: 0.1374 PPV: 0.1413] -- Test: AUPR: 0.1240 -Group [AUC0_1: 0.0082, AUPR: 0.1443, PPV: 0.1629]
+[I 260331 12:25 trainer_el:168] Best Epoch of fine-tuning: 0
+
+[I 260331 12:25 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV0-pretrain.pt ====
+[I 260331 12:25 trainer_el:183] Best Epoch of fine-tuning based on pretrained model: 0
+
+[I 260331 12:25 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV0-pretrain.pt ====
+[I 260331 12:25 utils:154] --- Saved csv and npy, Group-Test: AUC0_1: 0.0082  AUPR: 0.1443  PPV: 0.1629 ---
+[I 260331 12:25 main_antigen_presentation_5cv:99] ------------- Finish training model_id: 0 - cv: 0 ------------
+
+[I 260331 12:25 main_antigen_presentation_5cv:78] ------------- Start training model_id: 0 - cv: 1 ------------
+[D 260331 12:26 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0079 AUPR: 0.1204 PPV: 0.1304
+[D 260331 12:26 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0078 AUPR: 0.1448 PPV: 0.1549
+[I 260331 12:26 trainer_el:451] Epoch-pretrain: 0 - Loss[SA_I 0.3100 SA_B 0.3387 MA 0.5881 Tri 0.0613] -VAL 0.6325 - Valid:[AUC0_1:0.0066 AUPR:0.1136 PPV:0.1232] -- Test: AUPR: 0.1276 -Group [AUC0_1: 0.0080, AUPR: 0.1455, PPV: 0.1583]
+[I 260331 12:26 trainer_el:137] Best Pretrain Epoch: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV1-pretrain.pt ====
+[D 260331 12:26 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0079 AUPR: 0.1204 PPV: 0.1304
+[D 260331 12:26 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0078 AUPR: 0.1448 PPV: 0.1549
+[I 260331 12:26 trainer_el:461] -- Loss:0.632450 -Valid:[AUC0_1: 0.0066 AUPR: 0.1136 PPV: 0.1232] -- Test: AUPR: 0.1276 -Group [AUC0_1: 0.0080, AUPR: 0.1455, PPV: 0.1583]
+[I 260331 12:26 trainer_el:168] Best Epoch of fine-tuning: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV1-pretrain.pt ====
+[I 260331 12:26 trainer_el:183] Best Epoch of fine-tuning based on pretrained model: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV1-pretrain.pt ====
+[I 260331 12:26 utils:154] --- Saved csv and npy, Group-Test: AUC0_1: 0.0080  AUPR: 0.1455  PPV: 0.1583 ---
+[I 260331 12:26 main_antigen_presentation_5cv:99] ------------- Finish training model_id: 0 - cv: 1 ------------
+
+[I 260331 12:26 main_antigen_presentation_5cv:78] ------------- Start training model_id: 0 - cv: 2 ------------
+[D 260331 12:26 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0095 AUPR: 0.1312 PPV: 0.1606
+[D 260331 12:26 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0077 AUPR: 0.1549 PPV: 0.1635
+[I 260331 12:26 trainer_el:451] Epoch-pretrain: 0 - Loss[SA_I 0.3161 SA_B 0.3399 MA 0.5871 Tri 0.0613] -VAL 0.6217 - Valid:[AUC0_1:0.0095 AUPR:0.1413 PPV:0.1496] -- Test: AUPR: 0.1488 -Group [AUC0_1: 0.0085, AUPR: 0.1583, PPV: 0.1648]
+[I 260331 12:26 trainer_el:137] Best Pretrain Epoch: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV2-pretrain.pt ====
+[D 260331 12:26 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0095 AUPR: 0.1312 PPV: 0.1606
+[D 260331 12:26 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0077 AUPR: 0.1549 PPV: 0.1635
+[I 260331 12:26 trainer_el:461] -- Loss:0.621655 -Valid:[AUC0_1: 0.0095 AUPR: 0.1413 PPV: 0.1496] -- Test: AUPR: 0.1488 -Group [AUC0_1: 0.0085, AUPR: 0.1583, PPV: 0.1648]
+[I 260331 12:26 trainer_el:168] Best Epoch of fine-tuning: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV2-pretrain.pt ====
+[I 260331 12:26 trainer_el:183] Best Epoch of fine-tuning based on pretrained model: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV2-pretrain.pt ====
+[I 260331 12:26 utils:154] --- Saved csv and npy, Group-Test: AUC0_1: 0.0085  AUPR: 0.1583  PPV: 0.1648 ---
+[I 260331 12:26 main_antigen_presentation_5cv:99] ------------- Finish training model_id: 0 - cv: 2 ------------
+
+[I 260331 12:26 main_antigen_presentation_5cv:78] ------------- Start training model_id: 0 - cv: 3 ------------
+[D 260331 12:26 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0059 AUPR: 0.1114 PPV: 0.1200
+[D 260331 12:26 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0075 AUPR: 0.1364 PPV: 0.1465
+[I 260331 12:26 trainer_el:451] Epoch-pretrain: 0 - Loss[SA_I 0.3139 SA_B 0.3431 MA 0.5908 Tri 0.0614] -VAL 0.6435 - Valid:[AUC0_1:0.0066 AUPR:0.1114 PPV:0.1091] -- Test: AUPR: 0.1040 -Group [AUC0_1: 0.0064, AUPR: 0.1158, PPV: 0.1306]
+[I 260331 12:26 trainer_el:137] Best Pretrain Epoch: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV3-pretrain.pt ====
+[D 260331 12:26 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0059 AUPR: 0.1114 PPV: 0.1200
+[D 260331 12:26 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0075 AUPR: 0.1364 PPV: 0.1465
+[I 260331 12:26 trainer_el:461] -- Loss:0.643451 -Valid:[AUC0_1: 0.0066 AUPR: 0.1114 PPV: 0.1091] -- Test: AUPR: 0.1040 -Group [AUC0_1: 0.0064, AUPR: 0.1158, PPV: 0.1306]
+[I 260331 12:26 trainer_el:168] Best Epoch of fine-tuning: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV3-pretrain.pt ====
+[I 260331 12:26 trainer_el:183] Best Epoch of fine-tuning based on pretrained model: 0
+
+[I 260331 12:26 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV3-pretrain.pt ====
+[I 260331 12:26 utils:154] --- Saved csv and npy, Group-Test: AUC0_1: 0.0064  AUPR: 0.1158  PPV: 0.1306 ---
+[I 260331 12:26 main_antigen_presentation_5cv:99] ------------- Finish training model_id: 0 - cv: 3 ------------
+
+[I 260331 12:26 main_antigen_presentation_5cv:78] ------------- Start training model_id: 0 - cv: 4 ------------
+[D 260331 12:27 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0086 AUPR: 0.1359 PPV: 0.1569
+[D 260331 12:27 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0086 AUPR: 0.1626 PPV: 0.1684
+[I 260331 12:27 trainer_el:451] Epoch-pretrain: 0 - Loss[SA_I 0.3078 SA_B 0.3326 MA 0.5854 Tri 0.0615] -VAL 0.6298 - Valid:[AUC0_1:0.0105 AUPR:0.1482 PPV:0.1752] -- Test: AUPR: 0.1490 -Group [AUC0_1: 0.0089, AUPR: 0.1713, PPV: 0.1867]
+[I 260331 12:27 trainer_el:137] Best Pretrain Epoch: 0
+
+[I 260331 12:27 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV4-pretrain.pt ====
+[D 260331 12:27 trainer_el:190]  ============== Valid Bag: AUC0_1: 0.0086 AUPR: 0.1359 PPV: 0.1569
+[D 260331 12:27 trainer_el:211]  ============== Test Bag: AUC0_1: 0.0086 AUPR: 0.1626 PPV: 0.1684
+[I 260331 12:27 trainer_el:461] -- Loss:0.629820 -Valid:[AUC0_1: 0.0105 AUPR: 0.1482 PPV: 0.1752] -- Test: AUPR: 0.1490 -Group [AUC0_1: 0.0089, AUPR: 0.1713, PPV: 0.1867]
+[I 260331 12:27 trainer_el:168] Best Epoch of fine-tuning: 0
+
+[I 260331 12:27 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV4-pretrain.pt ====
+[I 260331 12:27 trainer_el:183] Best Epoch of fine-tuning based on pretrained model: 0
+
+[I 260331 12:27 trainer_el:338] ==== Model loaded from weights/EL/ImmuScope-EL-min-0-CV4-pretrain.pt ====
+[I 260331 12:27 utils:154] --- Saved csv and npy, Group-Test: AUC0_1: 0.0089  AUPR: 0.1713  PPV: 0.1867 ---
+[I 260331 12:27 main_antigen_presentation_5cv:99] ------------- Finish training model_id: 0 - cv: 4 ------------
+
+[I 260331 12:27 main_antigen_presentation_5cv:107] All Mean Test: AUC0_1: 0.0082 - AUPR: 0.1076 - PPV: 0.1311
+[I 260331 12:27 main_antigen_presentation_5cv:109] Finish test ---------------------------------- 0
+[I 260331 12:27 utils:154] --- Saved csv and npy, Group-Test: AUC0_1: 0.0071  AUPR: 0.1130  PPV: 0.1324 ---

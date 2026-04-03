@@ -1,0 +1,263 @@
+[I 260315 10:56 utils:64] Model Name: ImmuScope
+[I 260315 10:56 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-0.pt
+[I 260315 10:56 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-0-fine-tune-b.pt ====
+[I 260315 10:57 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06485, SA 0.00000 - Valid :[AUC0_1:0.0444 AUPR:0.7440 PPV:0.6842]
+[I 260315 10:57 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04125, SA 0.00000 - Valid :[AUC0_1:0.0476 AUPR:0.7678 PPV:0.7013]
+[I 260315 10:58 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03820, SA 0.00000 - Valid :[AUC0_1:0.0487 AUPR:0.7748 PPV:0.7004]
+[I 260315 10:58 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03623, SA 0.00000 - Valid :[AUC0_1:0.0493 AUPR:0.7779 PPV:0.7028]
+[I 260315 10:59 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03498, SA 0.00000 - Valid :[AUC0_1:0.0493 AUPR:0.7786 PPV:0.7027]
+[I 260315 10:59 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03403, SA 0.00000 - Valid :[AUC0_1:0.0501 AUPR:0.7797 PPV:0.7029]
+[I 260315 11:00 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03325, SA 0.00000 - Valid :[AUC0_1:0.0503 AUPR:0.7798 PPV:0.7041]
+[I 260315 11:00 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03263, SA 0.00000 - Valid :[AUC0_1:0.0505 AUPR:0.7812 PPV:0.7052]
+[I 260315 11:01 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03223, SA 0.00000 - Valid :[AUC0_1:0.0504 AUPR:0.7787 PPV:0.7021]
+[I 260315 11:01 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03174, SA 0.00000 - Valid :[AUC0_1:0.0508 AUPR:0.7813 PPV:0.7064]
+[I 260315 11:01 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03139, SA 0.00000 - Valid :[AUC0_1:0.0508 AUPR:0.7781 PPV:0.7036]
+[I 260315 11:02 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03108, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7807 PPV:0.7062]
+[I 260315 11:02 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03077, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7801 PPV:0.7075]
+[I 260315 11:03 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03044, SA 0.00000 - Valid :[AUC0_1:0.0515 AUPR:0.7811 PPV:0.7067]
+[I 260315 11:03 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03027, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7800 PPV:0.7050]
+[I 260315 11:04 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.02990, SA 0.00000 - Valid :[AUC0_1:0.0513 AUPR:0.7801 PPV:0.7055]
+[I 260315 11:04 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02974, SA 0.00000 - Valid :[AUC0_1:0.0518 AUPR:0.7803 PPV:0.7067]
+[I 260315 11:05 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02945, SA 0.00000 - Valid :[AUC0_1:0.0519 AUPR:0.7800 PPV:0.7059]
+[I 260315 11:05 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02936, SA 0.00000 - Valid :[AUC0_1:0.0518 AUPR:0.7784 PPV:0.7047]
+[I 260315 11:06 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02911, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7812 PPV:0.7075]
+[I 260315 11:06 trainer_cd4_epitope:169] Best Epoch: 9 
+[I 260315 11:06 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-0.pt
+[I 260315 11:06 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-0.pt ====
+[I 260315 11:06 main_cd4_epitope_train:82] |**---------Model 0--- TEST: Median AUC: 0.9074; Mean AUC: 0.8123; AVG AUC: 0.7575---------**|
+[I 260315 11:06 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-1.pt
+[I 260315 11:07 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-1-fine-tune-b.pt ====
+[I 260315 11:07 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.07015, SA 0.00000 - Valid :[AUC0_1:0.0448 AUPR:0.7465 PPV:0.6831]
+[I 260315 11:08 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04049, SA 0.00000 - Valid :[AUC0_1:0.0466 AUPR:0.7634 PPV:0.6946]
+[I 260315 11:08 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03763, SA 0.00000 - Valid :[AUC0_1:0.0480 AUPR:0.7689 PPV:0.6946]
+[I 260315 11:09 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03596, SA 0.00000 - Valid :[AUC0_1:0.0489 AUPR:0.7725 PPV:0.6978]
+[I 260315 11:09 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03484, SA 0.00000 - Valid :[AUC0_1:0.0492 AUPR:0.7725 PPV:0.6955]
+[I 260315 11:10 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03402, SA 0.00000 - Valid :[AUC0_1:0.0495 AUPR:0.7728 PPV:0.6963]
+[I 260315 11:10 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03325, SA 0.00000 - Valid :[AUC0_1:0.0496 AUPR:0.7747 PPV:0.6998]
+[I 260315 11:11 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03278, SA 0.00000 - Valid :[AUC0_1:0.0500 AUPR:0.7751 PPV:0.7007]
+[I 260315 11:11 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03222, SA 0.00000 - Valid :[AUC0_1:0.0506 AUPR:0.7793 PPV:0.7029]
+[I 260315 11:11 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03183, SA 0.00000 - Valid :[AUC0_1:0.0504 AUPR:0.7773 PPV:0.7044]
+[I 260315 11:12 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03148, SA 0.00000 - Valid :[AUC0_1:0.0508 AUPR:0.7789 PPV:0.7045]
+[I 260315 11:12 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03115, SA 0.00000 - Valid :[AUC0_1:0.0509 AUPR:0.7784 PPV:0.7015]
+[I 260315 11:13 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03077, SA 0.00000 - Valid :[AUC0_1:0.0509 AUPR:0.7775 PPV:0.7017]
+[I 260315 11:13 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03064, SA 0.00000 - Valid :[AUC0_1:0.0509 AUPR:0.7783 PPV:0.7032]
+[I 260315 11:14 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03022, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7806 PPV:0.7040]
+[I 260315 11:14 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.03003, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7796 PPV:0.7040]
+[I 260315 11:15 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02978, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7793 PPV:0.7026]
+[I 260315 11:15 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02961, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7789 PPV:0.7034]
+[I 260315 11:16 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02937, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7802 PPV:0.7041]
+[I 260315 11:16 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02915, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7800 PPV:0.7044]
+[I 260315 11:16 trainer_cd4_epitope:169] Best Epoch: 14 
+[I 260315 11:16 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-1.pt
+[I 260315 11:16 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-1.pt ====
+[I 260315 11:17 main_cd4_epitope_train:82] |**---------Model 1--- TEST: Median AUC: 0.9115; Mean AUC: 0.8143; AVG AUC: 0.7650---------**|
+[I 260315 11:17 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-2.pt
+[I 260315 11:17 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-2-fine-tune-b.pt ====
+[I 260315 11:18 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06589, SA 0.00000 - Valid :[AUC0_1:0.0445 AUPR:0.7445 PPV:0.6824]
+[I 260315 11:18 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04067, SA 0.00000 - Valid :[AUC0_1:0.0473 AUPR:0.7667 PPV:0.6904]
+[I 260315 11:19 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03767, SA 0.00000 - Valid :[AUC0_1:0.0484 AUPR:0.7734 PPV:0.6961]
+[I 260315 11:19 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03599, SA 0.00000 - Valid :[AUC0_1:0.0493 AUPR:0.7773 PPV:0.7022]
+[I 260315 11:19 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03488, SA 0.00000 - Valid :[AUC0_1:0.0497 AUPR:0.7793 PPV:0.7030]
+[I 260315 11:20 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03394, SA 0.00000 - Valid :[AUC0_1:0.0504 AUPR:0.7806 PPV:0.7039]
+[I 260315 11:20 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03315, SA 0.00000 - Valid :[AUC0_1:0.0503 AUPR:0.7795 PPV:0.7030]
+[I 260315 11:21 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03260, SA 0.00000 - Valid :[AUC0_1:0.0510 AUPR:0.7816 PPV:0.7051]
+[I 260315 11:21 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03208, SA 0.00000 - Valid :[AUC0_1:0.0508 AUPR:0.7821 PPV:0.7059]
+[I 260315 11:22 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03165, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7819 PPV:0.7060]
+[I 260315 11:22 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03125, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7820 PPV:0.7041]
+[I 260315 11:23 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03088, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7828 PPV:0.7074]
+[I 260315 11:23 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03058, SA 0.00000 - Valid :[AUC0_1:0.0515 AUPR:0.7814 PPV:0.7056]
+[I 260315 11:24 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03021, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7835 PPV:0.7090]
+[I 260315 11:24 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03002, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7818 PPV:0.7084]
+[I 260315 11:25 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.02972, SA 0.00000 - Valid :[AUC0_1:0.0518 AUPR:0.7826 PPV:0.7092]
+[I 260315 11:25 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02951, SA 0.00000 - Valid :[AUC0_1:0.0521 AUPR:0.7823 PPV:0.7085]
+[I 260315 11:26 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02930, SA 0.00000 - Valid :[AUC0_1:0.0521 AUPR:0.7834 PPV:0.7109]
+[I 260315 11:26 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02909, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7821 PPV:0.7110]
+[I 260315 11:27 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02888, SA 0.00000 - Valid :[AUC0_1:0.0523 AUPR:0.7830 PPV:0.7110]
+[I 260315 11:27 trainer_cd4_epitope:169] Best Epoch: 13 
+[I 260315 11:27 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-2.pt
+[I 260315 11:27 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-2.pt ====
+[I 260315 11:27 main_cd4_epitope_train:82] |**---------Model 2--- TEST: Median AUC: 0.9133; Mean AUC: 0.8171; AVG AUC: 0.7669---------**|
+[I 260315 11:27 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-3.pt
+[I 260315 11:28 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-3-fine-tune-b.pt ====
+[I 260315 11:28 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06154, SA 0.00000 - Valid :[AUC0_1:0.0447 AUPR:0.7468 PPV:0.6865]
+[I 260315 11:29 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04003, SA 0.00000 - Valid :[AUC0_1:0.0470 AUPR:0.7651 PPV:0.6975]
+[I 260315 11:29 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03738, SA 0.00000 - Valid :[AUC0_1:0.0483 AUPR:0.7718 PPV:0.7005]
+[I 260315 11:30 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03575, SA 0.00000 - Valid :[AUC0_1:0.0493 AUPR:0.7759 PPV:0.7036]
+[I 260315 11:30 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03461, SA 0.00000 - Valid :[AUC0_1:0.0496 AUPR:0.7777 PPV:0.7058]
+[I 260315 11:31 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03376, SA 0.00000 - Valid :[AUC0_1:0.0494 AUPR:0.7746 PPV:0.7069]
+[I 260315 11:31 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03312, SA 0.00000 - Valid :[AUC0_1:0.0501 AUPR:0.7785 PPV:0.7089]
+[I 260315 11:32 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03250, SA 0.00000 - Valid :[AUC0_1:0.0503 AUPR:0.7790 PPV:0.7103]
+[I 260315 11:32 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03199, SA 0.00000 - Valid :[AUC0_1:0.0505 AUPR:0.7801 PPV:0.7102]
+[I 260315 11:33 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03161, SA 0.00000 - Valid :[AUC0_1:0.0507 AUPR:0.7815 PPV:0.7103]
+[I 260315 11:33 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03122, SA 0.00000 - Valid :[AUC0_1:0.0510 AUPR:0.7837 PPV:0.7106]
+[I 260315 11:34 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03086, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7828 PPV:0.7109]
+[I 260315 11:34 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03057, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7823 PPV:0.7098]
+[I 260315 11:35 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03025, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7815 PPV:0.7088]
+[I 260315 11:35 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03004, SA 0.00000 - Valid :[AUC0_1:0.0513 AUPR:0.7815 PPV:0.7087]
+[I 260315 11:36 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.02976, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7836 PPV:0.7122]
+[I 260315 11:36 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02954, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7819 PPV:0.7091]
+[I 260315 11:37 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02935, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7843 PPV:0.7096]
+[I 260315 11:37 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02910, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7833 PPV:0.7102]
+[I 260315 11:38 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02895, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7836 PPV:0.7102]
+[I 260315 11:38 trainer_cd4_epitope:169] Best Epoch: 17 
+[I 260315 11:38 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-3.pt
+[I 260315 11:38 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-3.pt ====
+[I 260315 11:38 main_cd4_epitope_train:82] |**---------Model 3--- TEST: Median AUC: 0.9164; Mean AUC: 0.8132; AVG AUC: 0.7625---------**|
+[I 260315 11:38 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-4.pt
+[I 260315 11:38 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-4-fine-tune-b.pt ====
+[I 260315 11:39 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06081, SA 0.00000 - Valid :[AUC0_1:0.0441 AUPR:0.7387 PPV:0.6753]
+[I 260315 11:39 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04066, SA 0.00000 - Valid :[AUC0_1:0.0463 AUPR:0.7601 PPV:0.6902]
+[I 260315 11:40 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03787, SA 0.00000 - Valid :[AUC0_1:0.0481 AUPR:0.7706 PPV:0.6961]
+[I 260315 11:40 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03612, SA 0.00000 - Valid :[AUC0_1:0.0487 AUPR:0.7738 PPV:0.6976]
+[I 260315 11:41 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03503, SA 0.00000 - Valid :[AUC0_1:0.0489 AUPR:0.7744 PPV:0.6982]
+[I 260315 11:41 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03426, SA 0.00000 - Valid :[AUC0_1:0.0493 AUPR:0.7763 PPV:0.7018]
+[I 260315 11:42 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03368, SA 0.00000 - Valid :[AUC0_1:0.0495 AUPR:0.7765 PPV:0.7008]
+[I 260315 11:42 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03305, SA 0.00000 - Valid :[AUC0_1:0.0497 AUPR:0.7772 PPV:0.7021]
+[I 260315 11:43 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03249, SA 0.00000 - Valid :[AUC0_1:0.0499 AUPR:0.7785 PPV:0.7033]
+[I 260315 11:43 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03212, SA 0.00000 - Valid :[AUC0_1:0.0500 AUPR:0.7779 PPV:0.7040]
+[I 260315 11:44 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03181, SA 0.00000 - Valid :[AUC0_1:0.0503 AUPR:0.7796 PPV:0.7043]
+[I 260315 11:44 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03148, SA 0.00000 - Valid :[AUC0_1:0.0500 AUPR:0.7775 PPV:0.7019]
+[I 260315 11:45 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03125, SA 0.00000 - Valid :[AUC0_1:0.0505 AUPR:0.7800 PPV:0.7049]
+[I 260315 11:45 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03089, SA 0.00000 - Valid :[AUC0_1:0.0505 AUPR:0.7783 PPV:0.7025]
+[I 260315 11:46 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03071, SA 0.00000 - Valid :[AUC0_1:0.0506 AUPR:0.7795 PPV:0.7044]
+[I 260315 11:46 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.03042, SA 0.00000 - Valid :[AUC0_1:0.0509 AUPR:0.7802 PPV:0.7048]
+[I 260315 11:47 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.03021, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7807 PPV:0.7044]
+[I 260315 11:47 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02998, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7807 PPV:0.7060]
+[I 260315 11:48 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02977, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7805 PPV:0.7053]
+[I 260315 11:48 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02958, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7819 PPV:0.7063]
+[I 260315 11:48 trainer_cd4_epitope:169] Best Epoch: 19 
+[I 260315 11:48 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-4.pt
+[I 260315 11:48 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-4.pt ====
+[I 260315 11:49 main_cd4_epitope_train:82] |**---------Model 4--- TEST: Median AUC: 0.9163; Mean AUC: 0.8176; AVG AUC: 0.7665---------**|
+[I 260315 11:49 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-5.pt
+[I 260315 11:49 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-5-fine-tune-b.pt ====
+[I 260315 11:50 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06539, SA 0.00000 - Valid :[AUC0_1:0.0440 AUPR:0.7420 PPV:0.6827]
+[I 260315 11:50 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04024, SA 0.00000 - Valid :[AUC0_1:0.0466 AUPR:0.7621 PPV:0.6928]
+[I 260315 11:51 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03759, SA 0.00000 - Valid :[AUC0_1:0.0476 AUPR:0.7690 PPV:0.6990]
+[I 260315 11:51 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03588, SA 0.00000 - Valid :[AUC0_1:0.0486 AUPR:0.7732 PPV:0.7004]
+[I 260315 11:51 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03479, SA 0.00000 - Valid :[AUC0_1:0.0494 AUPR:0.7781 PPV:0.7066]
+[I 260315 11:52 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03403, SA 0.00000 - Valid :[AUC0_1:0.0498 AUPR:0.7793 PPV:0.7087]
+[I 260315 11:52 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03339, SA 0.00000 - Valid :[AUC0_1:0.0502 AUPR:0.7810 PPV:0.7068]
+[I 260315 11:53 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03278, SA 0.00000 - Valid :[AUC0_1:0.0505 AUPR:0.7817 PPV:0.7066]
+[I 260315 11:53 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03228, SA 0.00000 - Valid :[AUC0_1:0.0505 AUPR:0.7821 PPV:0.7076]
+[I 260315 11:54 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03195, SA 0.00000 - Valid :[AUC0_1:0.0510 AUPR:0.7839 PPV:0.7099]
+[I 260315 11:54 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03152, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7828 PPV:0.7089]
+[I 260315 11:55 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03121, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7848 PPV:0.7103]
+[I 260315 11:55 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03096, SA 0.00000 - Valid :[AUC0_1:0.0515 AUPR:0.7848 PPV:0.7097]
+[I 260315 11:56 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03072, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7857 PPV:0.7127]
+[I 260315 11:56 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03041, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7851 PPV:0.7113]
+[I 260315 11:57 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.03010, SA 0.00000 - Valid :[AUC0_1:0.0519 AUPR:0.7851 PPV:0.7116]
+[I 260315 11:57 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02988, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7866 PPV:0.7109]
+[I 260315 11:58 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02976, SA 0.00000 - Valid :[AUC0_1:0.0523 AUPR:0.7864 PPV:0.7110]
+[I 260315 11:58 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02947, SA 0.00000 - Valid :[AUC0_1:0.0524 AUPR:0.7869 PPV:0.7134]
+[I 260315 11:59 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02933, SA 0.00000 - Valid :[AUC0_1:0.0526 AUPR:0.7880 PPV:0.7146]
+[I 260315 11:59 trainer_cd4_epitope:169] Best Epoch: 19 
+[I 260315 11:59 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-5.pt
+[I 260315 11:59 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-5.pt ====
+[I 260315 11:59 main_cd4_epitope_train:82] |**---------Model 5--- TEST: Median AUC: 0.9056; Mean AUC: 0.8118; AVG AUC: 0.7544---------**|
+[I 260315 11:59 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-6.pt
+[I 260315 12:00 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-6-fine-tune-b.pt ====
+[I 260315 12:00 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06046, SA 0.00000 - Valid :[AUC0_1:0.0453 AUPR:0.7507 PPV:0.6923]
+[I 260315 12:00 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04067, SA 0.00000 - Valid :[AUC0_1:0.0475 AUPR:0.7681 PPV:0.7004]
+[I 260315 12:01 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03810, SA 0.00000 - Valid :[AUC0_1:0.0486 AUPR:0.7746 PPV:0.7033]
+[I 260315 12:01 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03640, SA 0.00000 - Valid :[AUC0_1:0.0490 AUPR:0.7763 PPV:0.7049]
+[I 260315 12:02 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03533, SA 0.00000 - Valid :[AUC0_1:0.0496 AUPR:0.7785 PPV:0.7061]
+[I 260315 12:02 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03449, SA 0.00000 - Valid :[AUC0_1:0.0500 AUPR:0.7805 PPV:0.7078]
+[I 260315 12:03 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03387, SA 0.00000 - Valid :[AUC0_1:0.0504 AUPR:0.7821 PPV:0.7092]
+[I 260315 12:03 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03325, SA 0.00000 - Valid :[AUC0_1:0.0502 AUPR:0.7803 PPV:0.7069]
+[I 260315 12:04 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03276, SA 0.00000 - Valid :[AUC0_1:0.0507 AUPR:0.7822 PPV:0.7090]
+[I 260315 12:04 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03230, SA 0.00000 - Valid :[AUC0_1:0.0510 AUPR:0.7828 PPV:0.7090]
+[I 260315 12:05 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03201, SA 0.00000 - Valid :[AUC0_1:0.0513 AUPR:0.7843 PPV:0.7102]
+[I 260315 12:05 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03156, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7830 PPV:0.7086]
+[I 260315 12:06 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03129, SA 0.00000 - Valid :[AUC0_1:0.0515 AUPR:0.7843 PPV:0.7087]
+[I 260315 12:06 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03093, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7842 PPV:0.7085]
+[I 260315 12:07 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03078, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7860 PPV:0.7102]
+[I 260315 12:07 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.03051, SA 0.00000 - Valid :[AUC0_1:0.0519 AUPR:0.7857 PPV:0.7095]
+[I 260315 12:08 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.03022, SA 0.00000 - Valid :[AUC0_1:0.0518 AUPR:0.7858 PPV:0.7094]
+[I 260315 12:08 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.03006, SA 0.00000 - Valid :[AUC0_1:0.0518 AUPR:0.7844 PPV:0.7061]
+[I 260315 12:09 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02982, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7867 PPV:0.7091]
+[I 260315 12:09 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02963, SA 0.00000 - Valid :[AUC0_1:0.0518 AUPR:0.7851 PPV:0.7071]
+[I 260315 12:09 trainer_cd4_epitope:169] Best Epoch: 18 
+[I 260315 12:09 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-6.pt
+[I 260315 12:09 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-6.pt ====
+[I 260315 12:10 main_cd4_epitope_train:82] |**---------Model 6--- TEST: Median AUC: 0.9081; Mean AUC: 0.8120; AVG AUC: 0.7543---------**|
+[I 260315 12:10 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-7.pt
+[I 260315 12:10 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-7-fine-tune-b.pt ====
+[I 260315 12:10 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06446, SA 0.00000 - Valid :[AUC0_1:0.0452 AUPR:0.7493 PPV:0.6886]
+[I 260315 12:11 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04032, SA 0.00000 - Valid :[AUC0_1:0.0474 AUPR:0.7648 PPV:0.6939]
+[I 260315 12:11 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03734, SA 0.00000 - Valid :[AUC0_1:0.0484 AUPR:0.7710 PPV:0.6972]
+[I 260315 12:12 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03576, SA 0.00000 - Valid :[AUC0_1:0.0488 AUPR:0.7748 PPV:0.6992]
+[I 260315 12:12 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03465, SA 0.00000 - Valid :[AUC0_1:0.0495 AUPR:0.7773 PPV:0.7022]
+[I 260315 12:13 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03382, SA 0.00000 - Valid :[AUC0_1:0.0498 AUPR:0.7781 PPV:0.7043]
+[I 260315 12:13 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03315, SA 0.00000 - Valid :[AUC0_1:0.0501 AUPR:0.7798 PPV:0.7037]
+[I 260315 12:14 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03258, SA 0.00000 - Valid :[AUC0_1:0.0506 AUPR:0.7821 PPV:0.7072]
+[I 260315 12:14 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03219, SA 0.00000 - Valid :[AUC0_1:0.0510 AUPR:0.7835 PPV:0.7097]
+[I 260315 12:15 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03179, SA 0.00000 - Valid :[AUC0_1:0.0509 AUPR:0.7826 PPV:0.7083]
+[I 260315 12:15 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03139, SA 0.00000 - Valid :[AUC0_1:0.0510 AUPR:0.7820 PPV:0.7080]
+[I 260315 12:16 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03098, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7860 PPV:0.7116]
+[I 260315 12:16 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03068, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7851 PPV:0.7111]
+[I 260315 12:17 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03044, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7825 PPV:0.7089]
+[I 260315 12:17 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03018, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7867 PPV:0.7120]
+[I 260315 12:18 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.02986, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7841 PPV:0.7106]
+[I 260315 12:18 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02971, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7873 PPV:0.7102]
+[I 260315 12:19 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02949, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7866 PPV:0.7109]
+[I 260315 12:19 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02935, SA 0.00000 - Valid :[AUC0_1:0.0521 AUPR:0.7852 PPV:0.7117]
+[I 260315 12:19 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02906, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7848 PPV:0.7101]
+[I 260315 12:19 trainer_cd4_epitope:169] Best Epoch: 16 
+[I 260315 12:19 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-7.pt
+[I 260315 12:20 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-7.pt ====
+[I 260315 12:20 main_cd4_epitope_train:82] |**---------Model 7--- TEST: Median AUC: 0.9164; Mean AUC: 0.8143; AVG AUC: 0.7636---------**|
+[I 260315 12:20 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-8.pt
+[I 260315 12:20 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-8-fine-tune-b.pt ====
+[I 260315 12:21 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06206, SA 0.00000 - Valid :[AUC0_1:0.0440 AUPR:0.7397 PPV:0.6781]
+[I 260315 12:21 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04103, SA 0.00000 - Valid :[AUC0_1:0.0462 AUPR:0.7595 PPV:0.6875]
+[I 260315 12:22 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03837, SA 0.00000 - Valid :[AUC0_1:0.0477 AUPR:0.7701 PPV:0.6944]
+[I 260315 12:22 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03667, SA 0.00000 - Valid :[AUC0_1:0.0488 AUPR:0.7746 PPV:0.6981]
+[I 260315 12:23 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03530, SA 0.00000 - Valid :[AUC0_1:0.0493 AUPR:0.7752 PPV:0.6971]
+[I 260315 12:23 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03455, SA 0.00000 - Valid :[AUC0_1:0.0497 AUPR:0.7763 PPV:0.6979]
+[I 260315 12:24 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03383, SA 0.00000 - Valid :[AUC0_1:0.0501 AUPR:0.7784 PPV:0.6988]
+[I 260315 12:24 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03314, SA 0.00000 - Valid :[AUC0_1:0.0504 AUPR:0.7796 PPV:0.7020]
+[I 260315 12:25 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03266, SA 0.00000 - Valid :[AUC0_1:0.0506 AUPR:0.7806 PPV:0.7028]
+[I 260315 12:25 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03237, SA 0.00000 - Valid :[AUC0_1:0.0508 AUPR:0.7811 PPV:0.7032]
+[I 260315 12:26 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03194, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7817 PPV:0.7061]
+[I 260315 12:26 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03156, SA 0.00000 - Valid :[AUC0_1:0.0513 AUPR:0.7817 PPV:0.7056]
+[I 260315 12:27 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03121, SA 0.00000 - Valid :[AUC0_1:0.0513 AUPR:0.7810 PPV:0.7070]
+[I 260315 12:27 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03088, SA 0.00000 - Valid :[AUC0_1:0.0512 AUPR:0.7806 PPV:0.7073]
+[I 260315 12:28 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03068, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7826 PPV:0.7082]
+[I 260315 12:28 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.03045, SA 0.00000 - Valid :[AUC0_1:0.0515 AUPR:0.7815 PPV:0.7087]
+[I 260315 12:29 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.03024, SA 0.00000 - Valid :[AUC0_1:0.0515 AUPR:0.7795 PPV:0.7087]
+[I 260315 12:29 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02997, SA 0.00000 - Valid :[AUC0_1:0.0516 AUPR:0.7804 PPV:0.7076]
+[I 260315 12:29 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02980, SA 0.00000 - Valid :[AUC0_1:0.0520 AUPR:0.7825 PPV:0.7104]
+[I 260315 12:30 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02959, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7795 PPV:0.7099]
+[I 260315 12:30 trainer_cd4_epitope:169] Best Epoch: 14 
+[I 260315 12:30 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-8.pt
+[I 260315 12:30 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-8.pt ====
+[I 260315 12:31 main_cd4_epitope_train:82] |**---------Model 8--- TEST: Median AUC: 0.9105; Mean AUC: 0.8131; AVG AUC: 0.7669---------**|
+[I 260315 12:31 main_cd4_epitope_train:21] Start training model weights/CD4/ImmuScope-9.pt
+[I 260315 12:31 trainer_cd4_epitope:88] ==== Model loaded from weights/EL/ImmuScope-EL-9-fine-tune-b.pt ====
+[I 260315 12:31 trainer_cd4_epitope:164] Epoch: 0 - Loss: BA 0.06266, SA 0.00000 - Valid :[AUC0_1:0.0456 AUPR:0.7495 PPV:0.6823]
+[I 260315 12:32 trainer_cd4_epitope:164] Epoch: 1 - Loss: BA 0.04051, SA 0.00000 - Valid :[AUC0_1:0.0481 AUPR:0.7688 PPV:0.6932]
+[I 260315 12:32 trainer_cd4_epitope:164] Epoch: 2 - Loss: BA 0.03766, SA 0.00000 - Valid :[AUC0_1:0.0487 AUPR:0.7722 PPV:0.6970]
+[I 260315 12:33 trainer_cd4_epitope:164] Epoch: 3 - Loss: BA 0.03606, SA 0.00000 - Valid :[AUC0_1:0.0494 AUPR:0.7765 PPV:0.6996]
+[I 260315 12:33 trainer_cd4_epitope:164] Epoch: 4 - Loss: BA 0.03516, SA 0.00000 - Valid :[AUC0_1:0.0498 AUPR:0.7769 PPV:0.7015]
+[I 260315 12:34 trainer_cd4_epitope:164] Epoch: 5 - Loss: BA 0.03422, SA 0.00000 - Valid :[AUC0_1:0.0502 AUPR:0.7787 PPV:0.7018]
+[I 260315 12:34 trainer_cd4_epitope:164] Epoch: 6 - Loss: BA 0.03356, SA 0.00000 - Valid :[AUC0_1:0.0506 AUPR:0.7805 PPV:0.7059]
+[I 260315 12:35 trainer_cd4_epitope:164] Epoch: 7 - Loss: BA 0.03295, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7842 PPV:0.7082]
+[I 260315 12:35 trainer_cd4_epitope:164] Epoch: 8 - Loss: BA 0.03249, SA 0.00000 - Valid :[AUC0_1:0.0509 AUPR:0.7809 PPV:0.7065]
+[I 260315 12:36 trainer_cd4_epitope:164] Epoch: 9 - Loss: BA 0.03202, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7826 PPV:0.7094]
+[I 260315 12:36 trainer_cd4_epitope:164] Epoch: 10 - Loss: BA 0.03169, SA 0.00000 - Valid :[AUC0_1:0.0514 AUPR:0.7835 PPV:0.7107]
+[I 260315 12:37 trainer_cd4_epitope:164] Epoch: 11 - Loss: BA 0.03125, SA 0.00000 - Valid :[AUC0_1:0.0511 AUPR:0.7839 PPV:0.7097]
+[I 260315 12:37 trainer_cd4_epitope:164] Epoch: 12 - Loss: BA 0.03095, SA 0.00000 - Valid :[AUC0_1:0.0517 AUPR:0.7833 PPV:0.7083]
+[I 260315 12:38 trainer_cd4_epitope:164] Epoch: 13 - Loss: BA 0.03073, SA 0.00000 - Valid :[AUC0_1:0.0521 AUPR:0.7858 PPV:0.7108]
+[I 260315 12:38 trainer_cd4_epitope:164] Epoch: 14 - Loss: BA 0.03047, SA 0.00000 - Valid :[AUC0_1:0.0521 AUPR:0.7860 PPV:0.7118]
+[I 260315 12:38 trainer_cd4_epitope:164] Epoch: 15 - Loss: BA 0.03024, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7855 PPV:0.7110]
+[I 260315 12:39 trainer_cd4_epitope:164] Epoch: 16 - Loss: BA 0.02994, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7858 PPV:0.7114]
+[I 260315 12:39 trainer_cd4_epitope:164] Epoch: 17 - Loss: BA 0.02982, SA 0.00000 - Valid :[AUC0_1:0.0522 AUPR:0.7850 PPV:0.7105]
+[I 260315 12:40 trainer_cd4_epitope:164] Epoch: 18 - Loss: BA 0.02957, SA 0.00000 - Valid :[AUC0_1:0.0527 AUPR:0.7873 PPV:0.7091]
+[I 260315 12:40 trainer_cd4_epitope:164] Epoch: 19 - Loss: BA 0.02937, SA 0.00000 - Valid :[AUC0_1:0.0524 AUPR:0.7850 PPV:0.7110]
+[I 260315 12:40 trainer_cd4_epitope:169] Best Epoch: 18 
+[I 260315 12:40 main_cd4_epitope_train:47] Finish training model weights/CD4/ImmuScope-9.pt
+[I 260315 12:40 trainer_cd4_epitope:88] ==== Model loaded from weights/CD4/ImmuScope-9.pt ====
+[I 260315 12:41 main_cd4_epitope_train:82] |**---------Model 9--- TEST: Median AUC: 0.9097; Mean AUC: 0.8098; AVG AUC: 0.7504---------**|
+[I 260315 12:41 main_cd4_epitope_train:88] -----------------Average-----------------
+[I 260315 12:41 main_cd4_epitope_train:92] |**========== TEST: Median AUC: 0.9268; Mean AUC: 0.8238; AVG AUC: 0.7689==========**|
