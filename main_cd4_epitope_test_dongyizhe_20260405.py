@@ -1,0 +1,79 @@
+# -*- coding: utf-8 -*-
+# 2026/4/5
+# dongyizhe
+"""
+CD4 test with optional --weights-tag (must match main_cd4_epitope_train_dongyizhe_20260405.py).
+Official upstream: main_cd4_epitope_test.py (no --weights-tag).
+"""
+import os
+
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+import click
+from torch.utils.data.dataloader import DataLoader
+from ImmuScope.datasets.datasets import SinInstanceBag
+from ImmuScope.models.trainer_cd4_epitope import Trainer
+from ImmuScope.models.ImmuScope import ImmuScope
+from ImmuScope.utils.data_utils import *
+from ImmuScope.utils.utils import *
+
+
+@click.command()
+@click.option('-d', '--data-cnf', type=click.Path(exists=True), default="configs/data.yaml")
+@click.option('-m', '--model-cnf', type=click.Path(exists=True), default="configs/ImmuScope.yaml")
+@click.option('-s', '--start-id', default=0)
+@click.option('-n', '--num_models', default=10)
+@click.option(
+    '--weights-tag',
+    default=None,
+    help='Must match --weights-tag used in main_cd4_epitope_train_dongyizhe_20260405.py.',
+)
+def main(data_cnf, model_cnf, start_id, num_models, weights_tag):
+    logger, data_cnf, model_cnf = load_config_and_setup_logging(data_cnf=data_cnf, model_cnf=model_cnf)
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model_name = model_cnf["name"]
+    out_name = model_name if not weights_tag else f'{model_name}-{weights_tag}'
+
+    all_model_path = Path(os.path.join(Path(model_cnf['path']), 'CD4', f'{out_name}.pt'))
+
+    mhc_name_seq = get_mhc_name_seq(data_cnf['mhc_seq'])
+
+    pred_instances_models = []
+    labels_models = []
+    peptide_protein_models = []
+    for model_id in range(start_id, start_id + num_models):
+        saved_model_path = all_model_path.with_stem(f'{all_model_path.stem}-{model_id}')
+        trainer = Trainer(ImmuScope, model_path=saved_model_path, device=device, logger=logger, **model_cnf['model'])
+
+        test_loader = DataLoader(
+            SinInstanceBag(data_cnf['test'], mhc_name_seq, indices=None), batch_size=model_cnf['test']['batch_size'])
+
+        pred_instances, _, _ = trainer.predict(test_loader, model_prefix=f"")
+        peptide_protein = test_loader.dataset.peptide_contexts
+        labels = test_loader.dataset.labels
+
+        median_auc, mean_auc, avg_auc, res_df = calculate_auc_base_protein(peptide_protein, pred_instances, labels)
+        logger.info('|**---------Model {}--- TEST: Median AUC: {:.4f}; Mean AUC: {:.4f}; AVG AUC: {:.4f}---------**|'.
+                    format(model_id, median_auc, mean_auc, avg_auc))
+        pred_instances_models.append(pred_instances)
+        labels_models.append(labels)
+        peptide_protein_models.append(peptide_protein)
+
+    logger.info(f'-----------------Average-----------------')
+    protein_ids = peptide_protein_models[0]
+    pred_mean = np.mean(np.array(pred_instances_models), axis=0)
+    label_mean = np.mean(np.array(labels_models), axis=0)
+    df_pred = pd.DataFrame({'protein': protein_ids, 'pred': pred_mean, 'label': label_mean})
+
+    saved_path = Path(data_cnf['results']) / 'ImmuScope-CD4'
+    saved_path.mkdir(parents=True, exist_ok=True)
+
+    df_pred.to_csv(f'{saved_path}/results_pred_protein_avg.csv', index=False)
+    median_auc, mean_auc, avg_auc, res_df = calculate_auc_base_protein(protein_ids, pred_mean, label_mean)
+    res_df.to_csv(f'{saved_path}/results_auc_protein_avg.csv', index=False)
+    logger.info('|**========== TEST: Median AUC: {:.4f}; Mean AUC: {:.4f}; AVG AUC: {:.4f}==========**|'.
+                format(median_auc, mean_auc, avg_auc))
+
+
+if __name__ == '__main__':
+    main()
